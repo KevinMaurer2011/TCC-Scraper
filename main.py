@@ -46,10 +46,10 @@ def GetPrices(item_ID):
         if '1 Minute ago' == age.text or '2 Minute ago' == age.text or '3 Minute ago' == age.text:
             if item_name.text == 'Aetherial Dust' and price_int < 300000:
                 print(f'{item_name.text}: {price.text} , Posted: {age.text}')
-                # winsound.Beep(freq,duration)
+                winsound.Beep(freq,duration)
             if item_name.text == 'Dreugh Wax' and price_int < 7000:
                 print(f'{item_name.text}: {price.text} , Posted: {age.text}')
-                # winsound.Beep(freq,duration)
+                winsound.Beep(freq,duration)
 
     print(f'Price Checked for: {item_name.text},', 'at', ShowTime(), 'PM', '- Waiting 10 Seconds')
     time.sleep(10)
