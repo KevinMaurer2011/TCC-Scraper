@@ -64,5 +64,5 @@ while True:
         GetPrices(17927)  # Chromium Grains
 
     except:
-        print('We got an error on out hands BOIIISSS')
+        print('We got an error on our hands BOIIISSS')
         pass
